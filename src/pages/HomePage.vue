@@ -6,17 +6,18 @@
       class="flex h-full flex-col items-center justify-center gap-10 text-lg"
     >
       <MainLogo />
-      <InfoBlock>
+      <InfoBlock size="large">
         Игра больше не публикуется на площадке. Если вы играли в проект ранее,
         перейдите на сайт разработчика и авторизуйтесь, чтобы сохранить своего
         персонажа
+        <br />
         <br />
         Нажимая "Перейти" вы соглашаетесь с передачей ваших данных компании
         MY.GAMES B.V. и их обработкой согласно Политике конфиденциальности
         портала MY.GAMES
       </InfoBlock>
       <BaseButton />
-      <InfoBlock>
+      <InfoBlock size="medium">
         Скачивая MY.GAMES Launcher вы соглашаетесь с передачей ваших данных
         компании MY.GAMES B.V. и их обработкой согласно Политике
         конфиденциальности портала MY.GAMES
