@@ -17,7 +17,7 @@
 </template>
 
 <script setup lang="ts">
-import InfoBlockElement from "../assets/InfoBlockElement.vue";
+import InfoBlockElement from "./InfoBlockElement.vue";
 
 defineOptions({
   name: "InfoBlock",
