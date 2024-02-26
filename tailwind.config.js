@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "guild-of-heroes": "url('./src/assets/guild-of-heroes-bg.jpg')",
+        "guild-of-heroes": "url('@/assets/guild-of-heroes-bg.jpg')",
       },
     },
   },
