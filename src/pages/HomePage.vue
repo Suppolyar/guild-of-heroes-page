@@ -19,11 +19,14 @@
 </template>
 
 <script setup lang="ts">
+import { useTitle } from "@vueuse/core";
 import MainLogo from "../assets/main-logo.vue";
 import BaseButton from "../components/BaseButton.vue";
 import InfoBlock from "../components/InfoBlock.vue";
 import MyGamesLogo from "../assets/my-games-logo.vue";
 import BaseFooter from "../components/footer/BaseFooter.vue";
+const title = useTitle();
+title.value = "Guilds Of Heroes";
 </script>
 
 <style scoped></style>
