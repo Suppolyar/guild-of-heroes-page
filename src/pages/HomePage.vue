@@ -1,9 +1,9 @@
 <template>
   <div
-    class="h-screen w-screen bg-guild-of-heroes bg-cover bg-center bg-no-repeat"
+    class="h-screen w-screen overflow-hidden bg-guild-of-heroes bg-cover bg-center bg-no-repeat"
   >
     <div
-      class="flex h-full flex-col items-center justify-center gap-10 text-lg"
+      class="flex h-full flex-col items-center justify-center gap-5 py-20 text-lg 2xl:gap-10"
     >
       <MainLogo />
       <InfoBlock size="large">
