@@ -14,6 +14,7 @@
         конфиденциальности портала MY.GAMES
       </InfoBlock>
     </div>
+    <BaseFooter class="absolute bottom-0 w-full" />
   </div>
 </template>
 
@@ -22,6 +23,7 @@ import MainLogo from "../assets/main-logo.vue";
 import BaseButton from "../components/BaseButton.vue";
 import InfoBlock from "../components/InfoBlock.vue";
 import MyGamesLogo from "../assets/my-games-logo.vue";
+import BaseFooter from "../components/footer/BaseFooter.vue";
 </script>
 
 <style scoped></style>
