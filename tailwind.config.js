@@ -6,6 +6,9 @@ export default {
       backgroundImage: {
         "guild-of-heroes": "url('@/assets/guild-of-heroes-bg.jpg')",
       },
+      colors: {
+        footer: "#131114",
+      },
     },
   },
   plugins: [],

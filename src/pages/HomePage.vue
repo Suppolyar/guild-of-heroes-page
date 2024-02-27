@@ -1,20 +1,22 @@
 <template>
-  <div
-    class="relative h-screen w-screen overflow-hidden bg-guild-of-heroes bg-cover bg-center bg-no-repeat"
-  >
-    <MyGamesLogo class="absolute right-[80px] top-[80px]" />
+  <div class="flex flex-col overflow-hidden">
     <div
-      class="flex h-full flex-col items-center justify-center gap-5 py-20 text-lg 2xl:gap-10"
+      class="relative h-screen w-screen bg-guild-of-heroes bg-cover bg-center bg-no-repeat"
     >
-      <MainLogo />
-      <BaseButton />
-      <InfoBlock size="medium">
-        Скачивая MY.GAMES Launcher вы соглашаетесь с передачей ваших данных
-        компании MY.GAMES B.V. и их обработкой согласно Политике
-        конфиденциальности портала MY.GAMES
-      </InfoBlock>
+      <MyGamesLogo class="absolute right-[80px] top-[80px]" />
+      <div
+        class="flex h-full flex-col items-center justify-center gap-5 py-20 text-lg 2xl:gap-10"
+      >
+        <MainLogo />
+        <BaseButton />
+        <InfoBlock size="medium">
+          Скачивая MY.GAMES Launcher вы соглашаетесь с передачей ваших данных
+          компании MY.GAMES B.V. и их обработкой согласно Политике
+          конфиденциальности портала MY.GAMES
+        </InfoBlock>
+      </div>
     </div>
-    <BaseFooter class="absolute bottom-0 w-full" />
+    <BaseFooter class="w-full" />
   </div>
 </template>
 
