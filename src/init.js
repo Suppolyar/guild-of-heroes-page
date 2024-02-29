@@ -21,7 +21,7 @@ export const init = () => {
     partnerScript.type = "text/javascript";
     partnerScript.async = true;
     partnerScript.src =
-      "//1l-hit.my.games/v1/hit/105088.js?r=" +
+      "//1l-hit.my.games/v1/hit/104373.js?r=" +
       encodeURIComponent(document.referrer) +
       "&l=" +
       encodeURIComponent(window.location.href) +
