@@ -5,7 +5,7 @@
       <div class="absolute -right-2 -top-1"><InfoBlockElement /></div>
     </div>
     <div
-      class="max-w-[580px] border-2 border-[#9E7641] bg-[#E0C094] px-[36px] py-[32px]"
+      class="max-w-[440px] border-2 border-[#9E7641] bg-[#E0C094] px-[42px] py-[21px]"
     >
       <slot />
     </div>

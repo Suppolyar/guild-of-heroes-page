@@ -1,12 +1,10 @@
 <template>
   <footer
-    class="bg-footer flex items-center justify-between px-6 py-5 text-center text-white"
+    class="fixed bottom-0 left-0 flex h-[50px] w-full items-center justify-between bg-footer px-16 text-center text-white"
   >
-    <a href="https://my.games/" target="_blank">
-      <MyGamesLogo class="h-[50px] w-[130px]" />
-    </a>
+    <MyGamesLogo class="h-[20px] w-[88px]" />
 
-    <div>
+    <div class="flex flex-col gap-x-6 text-sm opacity-50 xl:flex-row">
       <div>© 2024 MY.GAMES HOLDINGS LTD. Published by MY.GAMES B.V.</div>
       <div>
         All rights reserved. All trademarks are the property of their respective
@@ -14,13 +12,12 @@
       </div>
     </div>
 
-    <Logo18 />
+    <div class="text-base opacity-50">12+</div>
   </footer>
 </template>
 
 <script setup>
 import MyGamesLogo from "../../assets/my-games-logo.vue";
-import Logo18 from "../../assets/18.vue";
 </script>
 
 <style></style>
