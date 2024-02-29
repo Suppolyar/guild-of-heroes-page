@@ -1,5 +1,10 @@
 <template>
-  <button @click="onBtnClick" class="CustomBtn"><span>Скачать</span></button>
+  <button
+    @click="onBtnClick"
+    class="CustomBtn transition duration-150 hover:scale-105"
+  >
+    <span>Скачать</span>
+  </button>
 </template>
 
 <script setup>
