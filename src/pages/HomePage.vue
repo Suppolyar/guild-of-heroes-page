@@ -16,8 +16,8 @@
             class="underline"
             href="https://documentation.my.games/terms/mygames_privacy"
             target="_blank"
-            >Политике конфиденциальности
-          </a>
+            >Политике конфиденциальности</a
+          >
           портала MY.GAMES
         </InfoBlock>
       </div>
