@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col overflow-hidden">
     <div
-      class="logo-screen:h-full relative h-screen w-screen overflow-hidden bg-guild-of-heroes bg-cover bg-bottom bg-no-repeat"
+      class="logo-screen:h-full relative h-screen w-screen overflow-hidden bg-guild-of-heroes bg-cover bg-top bg-no-repeat"
     >
       <MyGamesLogo class="absolute right-[80px] top-[80px]" />
       <div class="flex h-full flex-col items-center justify-center gap-8 py-16">
